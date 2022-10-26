@@ -1,0 +1,168 @@
+{
+  "siteName": "BrainBerry Site Architecture",
+  "navigation": [{
+    "title": "Executive Summary",
+    "label": "1.",
+    "page": "index.md",
+    "template": "exec-summary.md",
+    "navigation": []
+  }, {
+    "title": "Solution Architecture Overview",
+    "label": "2.",
+    "page": "sa/index.md",
+    "template": "sa-overview.md",
+    "navigation": []
+  }, {
+    "title": "Architecture Considerations",
+    "label": "3.",
+    "navigation": [{
+      "title": "Security",
+      "label": "3.1.",
+      "navigation": [{
+        "page": "waf/security/index.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Control the Identity and Access of the IoT Device",
+        "label": "3.1.1.",
+        "page": "waf/security/control-the-identity-and-access-of-the-io-t-device.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Secure the Devices and Their Credentials",
+        "label": "3.1.2.",
+        "page": "waf/security/secure-the-devices-and-their-credentials.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Manage User Access Rights for IoT Devices",
+        "label": "3.1.3.",
+        "page": "waf/security/manage-user-access-rights-for-io-t-devices.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Analyze Application Logs To Identify Security Events",
+        "label": "3.1.4.",
+        "page": "waf/security/analyze-application-logs-to-identify-security-events.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Plan the Security Lifecycle of Your IoT Devices",
+        "label": "3.1.5.",
+        "page": "waf/security/plan-the-security-lifecycle-of-your-io-t-devices.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Manage Device Certificate Lifecycles",
+        "label": "3.1.6.",
+        "page": "waf/security/manage-device-certificate-lifecycles.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Encrypt Device Data",
+        "label": "3.1.7.",
+        "page": "waf/security/encrypt-device-data.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }]
+    }, {
+      "title": "Reliabililty",
+      "label": "3.2.",
+      "navigation": [{
+        "page": "waf/reliability/index.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Design To Withstand Component and System Faults",
+        "label": "3.2.1.",
+        "page": "waf/reliability/design-to-withstand-component-and-system-faults.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Provision Elastic Compute Capacity for IoT Message Processing",
+        "label": "3.2.2.",
+        "page": "waf/reliability/provision-elastic-compute-capacity-for-io-t-message-processing.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Provision Reliable Storage for IoT Data Sent to the Cloud",
+        "label": "3.2.3.",
+        "page": "waf/reliability/provision-reliable-storage-for-io-t-data-sent-to-the-cloud.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Design To Withstand Connectivity Failures",
+        "label": "3.2.4.",
+        "page": "waf/reliability/design-to-withstand-connectivity-failures.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Design Devices To Have Accurate Time",
+        "label": "3.2.5.",
+        "page": "waf/reliability/design-devices-to-have-accurate-time.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Control the Frequency of Message Delivery to the Device",
+        "label": "3.2.6.",
+        "page": "waf/reliability/control-the-frequency-of-message-delivery-to-the-device.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Design To Reliably Update Device Firmware",
+        "label": "3.2.7.",
+        "page": "waf/reliability/design-to-reliably-update-device-firmware.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Plan for disaster recovery (DR) of IoT workloads",
+        "label": "3.2.8.",
+        "page": "waf/reliability/plan-for-disaster-recovery-dr-of-io-t-workloads.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }]
+    }, {
+      "title": "Performance",
+      "label": "3.3.",
+      "navigation": [{
+        "page": "waf/performance/index.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Measure The Performance of the IoT Applications",
+        "label": "3.3.1.",
+        "page": "waf/performance/measure-the-performance-of-the-io-t-applications.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Measure The Performance of the IoT Devices",
+        "label": "3.3.2.",
+        "page": "waf/performance/measure-the-performance-of-the-io-t-devices.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Operate Applications Within the Limits of the Platform",
+        "label": "3.3.3.",
+        "page": "waf/performance/operate-applications-within-the-limits-of-the-platform.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }, {
+        "title": "Optimize the Ingestion of Telemetry Data",
+        "label": "3.3.4.",
+        "page": "waf/performance/optimize-the-ingestion-of-telemetry-data.md",
+        "template": "waf-pillar-bp.md",
+        "navigation": []
+      }]
+    }]
+  }, {
+    "title": "Resources",
+    "label": "4.",
+    "page": "resources/index.md",
+    "template": "resources.md",
+    "navigation": []
+  }],
+  "extraCss": ["stylesheets/extra.css"],
+  "extraJs": [
+    "https://unpkg.com/mermaid/dist/mermaid.min.js"
+  ]
+}

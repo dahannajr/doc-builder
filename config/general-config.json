@@ -1,0 +1,92 @@
+{
+  "siteName": "246 Years Projects",
+  "navigation": [
+    {
+      "title": "Executive Summary",
+      "label": "1.",
+      "page": "index.md",
+      "template": "exec-summary.md",
+      "navigation": []
+    },
+    {
+      "title": "Requirements",
+      "label": "2.",
+      "template": "general.md",
+      "navigation": [
+        {
+          "title": "Notes / Questions",
+          "page": "req/notes.md",
+          "label": "2.1.",
+          "template": "general.md",
+          "navigation": []
+        }
+      ]
+    },
+    {
+      "title": "Architecture",
+      "label": "3.",
+      "navigation": [
+        {
+          "title": "Data",
+          "label": "3.1.",
+          "navigation": [
+            {
+              "page": "arch/data/index.md",
+              "template": "general.md",
+              "navigation": []
+            }
+          ]
+        },
+        {
+          "title": "AWS Well-Architected Framework",
+          "label": "3.2.",
+          "navigation": [
+            {
+              "title": "Operational Excellence",
+              "page": "arch/waf/operations/index.md",
+              "template": "waf-pillar-bp.md",
+              "navigation": []
+            }, 
+            {
+              "title": "Security",
+              "page": "arch/waf/security/index.md",
+              "template": "waf-pillar-bp.md",
+              "navigation": []
+            }, 
+            {
+              "title": "Reliability",
+              "page": "arch/waf/reliability/index.md",
+              "template": "waf-pillar-bp.md",
+              "navigation": []
+            }, 
+            {
+              "title": "Performance Efficiency",
+              "page": "arch/waf/performance/index.md",
+              "template": "waf-pillar-bp.md",
+              "navigation": []
+            }, 
+            {
+              "title": "Cost Optimization",
+              "page": "arch/waf/cost/index.md",
+              "template": "waf-pillar-bp.md",
+              "navigation": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Resources",
+      "label": "4.",
+      "page": "resources/index.md",
+      "template": "resources.md",
+      "navigation": []
+    }
+  ],
+  "extraCss": [
+    "stylesheets/extra.css"
+  ],
+  "extraJs": [
+    "https://unpkg.com/mermaid/dist/mermaid.min.js"
+  ]
+}
